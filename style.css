@@ -1,7 +1,20 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: 'Ruda';
+    src: url(fonts/Ruda.ttf);
+}
 
-body {
-    padding: 0px;
-    margin: 0px;
+.main_page {
+    position: relative;
+    width: 1440px;
+    height: 2888px;
+
+    background: #242427;
+    z-index: 5;
+    overflow: hidden;
 }
 .head_rectangle {
     position: absolute;
@@ -35,21 +48,21 @@ body {
     left: 560px;
 }
 .vector {
-position: relative;
-width: 113px;
-height: 88.89px;
-top: 388.71px;
-left: 582px;
-z-index: -1;
+    position: relative;
+    width: 113px;
+    height: 88.89px;
+    top: 388.71px;
+    left: 582px;
+    z-index: -1;
 }
 
 .vector_1 {
-position: relative;
-width: 93px;
-height: 73px;
-top: 236px;
-left: 645px;
-transform: rotate(90deg);
+    position: relative;
+    width: 93px;
+    height: 73px;
+    top: 236px;
+    left: 645px;
+    transform: rotate(90deg);
 }
 
 .vector_4 {
@@ -59,4 +72,155 @@ transform: rotate(90deg);
     top: 353px;
     left: 590px;
     z-index: -1;
+}
+
+.avto_your_power {
+    position: relative;
+    width: 160px;
+    height: 50px;
+    top: 0px;
+    left: 150px;
+
+    padding-left: 10px;
+    border-left: 1px solid #D95583;
+    
+}
+
+.avto_text {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.your_power_text {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.92px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.navigation a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 79px;
+}
+
+#about_us {
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 0px;
+    left: 776px;
+}
+#shop {
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 0px;
+    left: 963px;
+}
+#contact {
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    top: 0px;
+    left: 1150px;
+}
+
+.youone_text {
+    margin: 0;
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    top: 249px;
+    left: 130px;
+
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.avtosalon {
+    position: absolute;
+    width: 373px;
+    height: 61px;
+    top: 330px;
+    left: 127px;
+
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;
+    background-image: linear-gradient(92.07deg, #003ACE 0%, #CE0094 74.9%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.submit_your_application {
+    position: absolute;
+    width: 200px;
+    height: 62px;
+    top: 523px;
+    left: 130px;
+    background: linear-gradient(95.49deg, #53498F 0%, #D95583 100%);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23.44px;
+    text-align: center;
+    color: #FFFFFF;   
+}
+
+.number_20 {
+    margin: 0px;
+    position: absolute;
+    width: 541px;
+    height: 453px;
+    top: 84px;
+    left: 1030px;
+    font-family: 'Roboto';
+    font-size: 490px;
+    font-weight: 200;
+    line-height: 574.22px;
+    text-align: left;
+    color: #84848480;
+}
+
+.big_text {
+    margin: 0;
+    position: absolute;
+    width: 1030px;
+    height: 625px;
+    top: 835px;
+    left: 258px;
+    font-family: 'Ruda';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.51px;
+    text-align: left;
+    color: #FFFFFF;
+    text-indent: 35px;
+}
+
+.big_text p {
+    margin-bottom: 21px;
+    margin-top: 0px;
 }
