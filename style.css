@@ -22,7 +22,7 @@
     height: 943px;
     top: -43px;
     border: 1px 0px 0px 0px;
-    border: 1px solid #D95583;
+   
 }
 .inside_rectangle {
     position: absolute;
@@ -223,4 +223,134 @@
 .big_text p {
     margin-bottom: 21px;
     margin-top: 0px;
+}
+
+.bestsailers_text {
+    position: absolute;
+    width: 335px;
+    height: 116px;
+    top: 1583px;
+    left: 130px;
+    font-family: 'Ruda';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.85px;
+    text-align: left;
+    background: linear-gradient(120.71deg, #003ACE 31.37%, #FF0000 79.66%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 0;
+}
+
+.car_1 {
+    position: absolute;
+    top: 1812px;
+    left: 258px;
+
+    width: 436px;
+    height: 316px;
+}
+
+.car_2 {
+    position: absolute;
+    top: 1812px;
+    left: 810px;
+
+    width: 436px;
+    height: 316px;
+}
+
+.car_3 {
+    position: absolute;
+    top: 2184px;
+    left: 258px;
+
+    width: 436px;
+    height: 316px;
+}
+
+.car_4 {
+    position: absolute;
+    top: 2184px;
+    left: 810px;
+
+    width: 436px;
+    height: 316px;
+}
+
+.footer_rectangle {
+    position: relative;
+    width: 1445px;
+    height: 332px;
+    top: 2556px;
+
+    background-image: linear-gradient(#242427 0%, rgba(60,60,60, 0.7), #242427 80%);
+}
+
+.footer_text {
+    position: relative;
+    width: 1106px;
+    height: 46px;
+    left: 215px;
+    top: 120px;
+    margin: 0px;
+
+    font-family: 'Ruda';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.26px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.youtube_logo {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 220px;
+    left: 504px;
+    background-image: url(images/YouTube\ Squared.png);
+    background-color: rgba(36, 36, 39, 0);
+    border: none;
+}
+.facebook_logo {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 220px;
+    left: 604px;
+    background-image: url(images/Facebook.png);
+    background-color: rgba(36, 36, 39, 0);
+    border: none;
+}
+.google_logo {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 220px;
+    left: 704px;
+    background-image: url(images/Google\ Plus.png);
+    background-color: rgba(36, 36, 39, 0);
+    border: none;
+}
+.assign_button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 220px;
+    left: 804px;
+    background-image: url(images/Batch\ Assign.png);
+    background-color: rgba(36, 36, 39, 0);
+    border: none;
+}
+.help_button {
+position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 220px;
+    left: 904px;
+    background-image: url(images/Helping\ Hand.png);
+    background-color: rgba(36, 36, 39, 0);
+    border: none;    
 }
